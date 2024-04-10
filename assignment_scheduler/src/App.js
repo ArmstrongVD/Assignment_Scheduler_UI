@@ -1,10 +1,15 @@
-
-import './App.css';
+import Header from "./components/Header";
+import Table from "./components/Table";
+// import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <Header />
+    <h1>Assignment Scheduler</h1>
+      
+        <Table />
+      
     </div>
   );
 }
