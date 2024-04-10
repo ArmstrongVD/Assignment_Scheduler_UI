@@ -35,7 +35,7 @@ function Table() {
          
           body={[
             {
-              scheduleName: "http://www.google.com",
+              scheduleName: <a href="#">Schedule Name</a>,
               status: "Active",
               applyTo: "Select Regional Office",
               scheduledStart: "Tues Nov 9 2024 16:34:50 EST",
@@ -49,7 +49,7 @@ function Table() {
               
             },
             {
-              scheduleName: "http://www.google.com",
+              scheduleName: <a href="#">Schedule Name</a>,
               status: "Active",
               applyTo: "Select Regional Office",
               scheduledStart: "Tues Nov 9 2024 16:34:50 EST",
@@ -63,7 +63,7 @@ function Table() {
               ),
             },
             {
-              scheduleName: "http://www.google.com",
+              scheduleName: <a href="#">Schedule Name</a>,
               status: "Active",
               applyTo: "Select Regional Office",
               scheduledStart: "Tues Nov 9 2024 16:34:50 EST",
@@ -77,7 +77,7 @@ function Table() {
               ),
             },
             {
-              scheduleName: "http://www.google.com",
+              scheduleName: <a href="#">Schedule Name</a>,
               status: "Active",
               applyTo: "Select Regional Office",
               scheduledStart: "Tues Nov 9 2024 16:34:50 EST",
@@ -91,7 +91,7 @@ function Table() {
               ),
             },
             {
-              scheduleName:"http://www.google.com",
+              scheduleName:<a href="#">Schedule Name</a>,
               status: "Active",
               applyTo: "Select Regional Office",
               scheduledStart: "Tues Nov 9 2024 16:34:50 EST",
@@ -105,7 +105,7 @@ function Table() {
               ),
             },
             {
-              scheduleName: "http://www.google.com",
+              scheduleName: <a href="#">Schedule Name</a>,
               status: "Active",
               applyTo: "Select Regional Office",
               scheduledStart: "Tues Nov 9 2024 16:34:50 EST",
@@ -119,7 +119,7 @@ function Table() {
               ),
             },
             {
-              scheduleName: "http://www.google.com",
+              scheduleName: <a href="#">Schedule Name</a>,
               status: "Active",
               applyTo: "Select Regional Office",
               scheduledStart: "Tues Nov 9 2024 16:34:50 EST",
