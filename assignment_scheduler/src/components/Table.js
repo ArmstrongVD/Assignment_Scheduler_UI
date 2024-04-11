@@ -1,38 +1,36 @@
 import { Button, VBMSTable } from '@va-bip/bip-ui-components';
+import CustomHeader from './CustomHeader';
 import './Table.scss'
 
 function Table() {
+
+  function handleClick() {
+    console.log('Click')
+  };
+
+
     return (
       <div className='table'>
         <VBMSTable
+
         
         actions={[
-            {
-              func: function noRefCheck(){},
-              name: 'Toggle items per page'
-            },
-            {
-              hook: 'SELECT_ALL_ROWS',
-              name: 'Test Action Hook'
-            }
-          ]}
+          {
+            func: handleClick,
+            name: 'Toggle items per page'
+          },
+          {
+            hook: 'SELECT_ALL_ROWS',
+            name: 'Test Action Hook'
+          }
+        ]}
 
-        delete={[
-            {
-              func: function noRefCheck(){},
-              name: 'Toggle items per page'
-            },
-            {
-              hook: 'SELECT_ALL_ROWS',
-              name: 'Test Action Hook'
-            }
-          ]}
+          
           ariaRowLabelKeys={[
             'docTitle',
             'id'
           ]}
-       
-         
+
           body={[
             {
               scheduleName: <a href="#">Schedule Name</a>,
@@ -179,7 +177,8 @@ function Table() {
           direction='descending'
           selectable
           border
-        //   customHeader={<CustomHeader />}
+          action
+          customHeader={<CustomHeader />}
         />
       </div>
     );
